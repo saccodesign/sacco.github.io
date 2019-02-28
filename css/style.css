@@ -1,0 +1,85 @@
+/*body{background-color:#f5f5f5;}*/
+body{font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei",sans-serif;}
+ul,ol{padding:0;list-style:none;}
+section{min-width:942px;margin:0 auto;}
+.header{position:absolute;top:0;left:0;z-index:9;width:100%;min-width:942px;height:66px;padding:0 10%;background-color:#fff;box-shadow:0 1px 5px rgba(0, 0, 0, 0.3);overflow:hidden;}
+.header .wrap{width:1000px;height:66px;margin:0 auto;}
+.header .logo{float:left;width:260px;height:100%;line-height:99em;background:url(../images/logo.png) no-repeat 50%;overflow:hidden;}
+.header .logo a{display:block;height:100%;}
+.header .menu{float:right;}
+.header .menu li{float:left;padding:0 25px;line-height:66px;}
+.header .menu li a{color:#222;opacity:.3;font-weight:700;}
+.header .menu li a:hover{opacity:1;text-decoration:none;}
+.header .menu li.current a{opacity:1;}
+.header.affix {
+	position: fixed;
+	-webkit-animation: menufixedEf 1s ease;
+    			animation: menufixedEf 1s ease;
+}
+@-webkit-keyframes menufixedEf {
+    0% {top: -100px;}
+    100% {top: 0;}
+}
+@keyframes menufixedEf {
+    0% {top: -100px;}
+    100% {top: 0px;}
+}
+.sacco{max-width:1920px;height:866px;margin:0 auto;padding-top:66px;background:url(../images/banner-01.jpg) no-repeat 50% 66px;text-align:center;color:#fff;}
+.sacco .item{padding-top:246px;}
+.sacco h2{margin-top:0;margin-bottom:26px;}
+.sacco h2 em{display:block;margin-bottom:26px;font-weight:700;font-style:normal;}
+.sacco p{font-weight:700;}
+.sacco .button{margin-top:60px;}
+.sacco .button a{display:block;width:250px;margin:0 auto;line-height:51px;background-color:#C00;color:#fff;font-size:14px;font-weight:700;}
+.sacco .button a:hover{background-color:#e00;text-decoration:none;}
+
+.work{margin-top:100px;padding-top:100px;}
+.work h2{margin-bottom:10px;text-align:center;font-size:24px;}
+.work .item{width:940px;margin:30px auto 0;overflow:hidden;}
+.work .item ul{margin-right:-20px;overflow:hidden;}
+.work .item li{position:relative;float:left;width:300px;height:210px;margin-right:20px;margin-bottom:20px;}
+.work .item a{position:absolute;top:15px;left:0;width:300px;height:180px;-webkit-border-radius:5px;border-radius:5px;overflow:hidden;
+	-webkit-transition:all .3s;
+					transition:all .3s;
+}
+.work .item img{position:absolute;left:0;top:-15px;width:300px;height:210px;
+	-webkit-transition:all .3s;
+					transition:all .3s;
+}
+
+.work .item span{position:absolute;z-index:2;
+	-webkit-transition:all .3s;
+					transition:all .3s;
+}
+.work .item .mask{left:0;top:0;width:100%;height:100%;background-color:rgba(255,255,255,.4);}
+.work .item .t1{left:15px;bottom:-80px;font-size:16px;color:#fff;}
+.work .item .t2{left:15px;bottom:-70px;font-size:12px;color:#aaa;
+	-webkit-transition-delay:.1s;
+					transition-delay:.1s;
+}
+
+.work .item li:hover a{top:0;height:210px;}
+.work .item li:hover img{top:0;}
+.work .item li:hover .mask{top:160px;height:50px;padding-top:0;background-color:rgba(0,0,0,.7);}
+.work .item li:hover .t1{bottom:22px;}
+.work .item li:hover .t2{bottom:8px;}
+
+.services{margin-top:80px;padding-top:100px;}
+.services h2{margin-bottom:10px;text-align:center;font-size:24px;}
+.services .item{width:942px;margin:30px auto 0;overflow:hidden;}
+.services .item ul{margin-right:-18px;overflow:hidden;}
+.services .item li{float:left;width:302px;height:410px;margin-right:18px;padding:35px 30px;border:1px solid #ccc;overflow:hidden;}
+.services .item li .icon{display:block;width:100px;height:100px;margin:0 auto;}
+.services .item li .mobile{background-image:url(../images/icon-01.png);}
+.services .item li .pc{background-image:url(../images/icon-02.png);}
+.services .item li .html5{background-image:url(../images/icon-03.png);}
+.services .item li strong{display:block;margin-top:20px;font-size:20px;color:#c00;text-align:center;}
+.services .item li strong:after{content:"";display:block;width:72px;height:1px;margin:20px auto 30px;background-color:#ccc;overflow:hidden;}
+.services .item li span{display:block;color:#999;font-size:13px;}
+
+.footer{margin-top:160px;color:#000;font-size:13px;border-top:1px solid #e0e0e0;background-color:#f0f0f0;}
+.footer .item{width:940px;margin:0 auto;padding:20px 0;overflow:hidden;}
+.footer address{float:left;}
+.footer em{color:#c00;font-style:normal;}
+.footer ul{float:right;padding-left:100px;color:#666;line-height:24px;}
+.footer li a{color:#666;}
