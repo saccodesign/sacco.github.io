@@ -3972,8 +3972,6 @@ nav.main-navigation ul li:hover > ul {
 }
 
 .team-member > img {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
 }
 
 /**
