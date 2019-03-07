@@ -2776,7 +2776,7 @@ nav.main-navigation ul li:hover > ul {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  border-bottom: 1px solid #f1f1f1;
+  /*border-bottom: 1px solid #f1f1f1;*/
   z-index: 1;
 }
 
